@@ -10,6 +10,7 @@ from vector import Vector
 
 def run_game():
 	#initialize program, settings and create screen object
+    #comment for first commit sina
 	pygame.init()
 	ml_settings = Settings()
 	screen = pygame.display.set_mode((ml_settings.screen_width, ml_settings.screen_height))
