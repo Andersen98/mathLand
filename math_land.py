@@ -1,12 +1,12 @@
-import sys
+﻿import sys
 
 import pygame
 
 from settings import Settings
 import workspace_functions as ws_f
-from cartesian_plane import Cartesian_Plane
-from environment import Environment
-from vector import Vector
+from math_lib.cartesian_plane import Cartesian_Plane
+from math_lib.environment import Environment
+from math_lib.vector import Vector
 
 def run_game():
 	#initialize program, settings and create screen object
