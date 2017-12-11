@@ -18,6 +18,7 @@ def run_game():
 
 	#Initialize mathematical environment
 	environment = Environment()
+    #Environment origin is set to center of screen
 	environment.set_origin(Vector(screen.get_rect().centerx,screen.get_rect().centery))
 
 	#Create Cartisian plane object
