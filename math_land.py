@@ -42,5 +42,7 @@ def run_game():
 		#Draw the screen
 		ws_f.update_screen(ml_settings, screen, cartesian_plane)
 
+        #def not being a jerk
+
         
 run_game()
