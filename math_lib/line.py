@@ -1,15 +1,14 @@
-import logging, sys
+﻿import logging, sys
 import pygame
 from environment import Environment
 from vector import Vector
 
-Class Line(object):
+class Line(object):
 	"""Linear Combination of line is represented as linear comb of basis vectors"""
 	#mathematically all lines can be represented as a linear comb. of the basis vectors from the env and offset from origin
 	def __init__(self, evnvironment a, b, c = None):
-		
 		#Linear comb of basis vectors, a -> i, b -> j, c -> k
-		self.a = a
+        self.a = a
 		self.b = b
 		self.dim = 2
 		if c is None:
@@ -21,4 +20,3 @@ Class Line(object):
 		self.environment = environment
 	
 	def draw(self,screen):
-		
